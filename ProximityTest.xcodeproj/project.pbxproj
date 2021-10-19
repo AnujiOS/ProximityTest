@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC1784351B4C1AF5792634C /* Pods_ProximityTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904FD8F57F59E70156990ABD /* Pods_ProximityTestTests.framework */; };
 		4D45C838271EC38700D136AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C837271EC38700D136AF /* AppDelegate.swift */; };
 		4D45C83A271EC38700D136AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C839271EC38700D136AF /* SceneDelegate.swift */; };
 		4D45C83C271EC38700D136AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C83B271EC38700D136AF /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		4D45C844271EC3A000D136AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45C842271EC3A000D136AF /* LaunchScreen.storyboard */; };
 		4D45C84F271EC3A000D136AF /* ProximityTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C84E271EC3A000D136AF /* ProximityTestTests.swift */; };
 		4D45C85A271EC3A000D136AF /* ProximityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C859271EC3A000D136AF /* ProximityTestUITests.swift */; };
+		9F24A07BBA955004A6FDF648 /* Pods_ProximityTest_ProximityTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDF21EF5C25CA2C8620947A /* Pods_ProximityTest_ProximityTestUITests.framework */; };
+		A07CA3E61D0A89898B183A24 /* Pods_ProximityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AF1C402316CA92C8EF0643 /* Pods_ProximityTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15AF1C402316CA92C8EF0643 /* Pods_ProximityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProximityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D45C834271EC38700D136AF /* ProximityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D45C837271EC38700D136AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D45C839271EC38700D136AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		4D45C855271EC3A000D136AF /* ProximityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D45C859271EC3A000D136AF /* ProximityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityTestUITests.swift; sourceTree = "<group>"; };
 		4D45C85B271EC3A000D136AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844994FFC12D13DE932F1133 /* Pods-ProximityTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTestTests.release.xcconfig"; path = "Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		904FD8F57F59E70156990ABD /* Pods_ProximityTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProximityTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C431A5DA9FD19188C9BA1D3 /* Pods-ProximityTest-ProximityTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTest-ProximityTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3A1283C48F3071BCE0F45A /* Pods-ProximityTest-ProximityTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTest-ProximityTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ABEC35DFCD2B430D4E57BEF9 /* Pods-ProximityTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDF21EF5C25CA2C8620947A /* Pods_ProximityTest_ProximityTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProximityTest_ProximityTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9461F8EE7E8C69DC90D675 /* Pods-ProximityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTest.debug.xcconfig"; path = "Target Support Files/Pods-ProximityTest/Pods-ProximityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB77C4587CF32760EDD91E7 /* Pods-ProximityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTest.release.xcconfig"; path = "Target Support Files/Pods-ProximityTest/Pods-ProximityTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07CA3E61D0A89898B183A24 /* Pods_ProximityTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC1784351B4C1AF5792634C /* Pods_ProximityTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F24A07BBA955004A6FDF648 /* Pods_ProximityTest_ProximityTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,8 @@
 				4D45C84D271EC3A000D136AF /* ProximityTestTests */,
 				4D45C858271EC3A000D136AF /* ProximityTestUITests */,
 				4D45C835271EC38700D136AF /* Products */,
+				79B3D26FAFAAF1E29E609526 /* Pods */,
+				C4779CB250B3CF93BCB60F8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +185,30 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		79B3D26FAFAAF1E29E609526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9461F8EE7E8C69DC90D675 /* Pods-ProximityTest.debug.xcconfig */,
+				FFB77C4587CF32760EDD91E7 /* Pods-ProximityTest.release.xcconfig */,
+				9C431A5DA9FD19188C9BA1D3 /* Pods-ProximityTest-ProximityTestUITests.debug.xcconfig */,
+				AA3A1283C48F3071BCE0F45A /* Pods-ProximityTest-ProximityTestUITests.release.xcconfig */,
+				ABEC35DFCD2B430D4E57BEF9 /* Pods-ProximityTestTests.debug.xcconfig */,
+				844994FFC12D13DE932F1133 /* Pods-ProximityTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4779CB250B3CF93BCB60F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15AF1C402316CA92C8EF0643 /* Pods_ProximityTest.framework */,
+				DEDF21EF5C25CA2C8620947A /* Pods_ProximityTest_ProximityTestUITests.framework */,
+				904FD8F57F59E70156990ABD /* Pods_ProximityTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D45C85E271EC3A000D136AF /* Build configuration list for PBXNativeTarget "ProximityTest" */;
 			buildPhases = (
+				57EB51C5ACF136F314FF49FA /* [CP] Check Pods Manifest.lock */,
 				4D45C830271EC38700D136AF /* Sources */,
 				4D45C831271EC38700D136AF /* Frameworks */,
 				4D45C832271EC38700D136AF /* Resources */,
+				936C77575CF27A8617F3020D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D45C861271EC3A000D136AF /* Build configuration list for PBXNativeTarget "ProximityTestTests" */;
 			buildPhases = (
+				1E228874A24DA202BCCD3079 /* [CP] Check Pods Manifest.lock */,
 				4D45C846271EC3A000D136AF /* Sources */,
 				4D45C847271EC3A000D136AF /* Frameworks */,
 				4D45C848271EC3A000D136AF /* Resources */,
+				E42723680321CCF1A7A74B45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D45C864271EC3A000D136AF /* Build configuration list for PBXNativeTarget "ProximityTestUITests" */;
 			buildPhases = (
+				8039DA1405640DD023FC471E /* [CP] Check Pods Manifest.lock */,
 				4D45C851271EC3A000D136AF /* Sources */,
 				4D45C852271EC3A000D136AF /* Frameworks */,
 				4D45C853271EC3A000D136AF /* Resources */,
+				8CE7CCC4C8EE0FF858877219 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +339,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E228874A24DA202BCCD3079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProximityTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57EB51C5ACF136F314FF49FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProximityTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8039DA1405640DD023FC471E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProximityTest-ProximityTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE7CCC4C8EE0FF858877219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936C77575CF27A8617F3020D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTest/Pods-ProximityTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTest/Pods-ProximityTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProximityTest/Pods-ProximityTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42723680321CCF1A7A74B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D45C830271EC38700D136AF /* Sources */ = {
@@ -473,6 +640,7 @@
 		};
 		4D45C85F271EC3A000D136AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9461F8EE7E8C69DC90D675 /* Pods-ProximityTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +660,7 @@
 		};
 		4D45C860271EC3A000D136AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB77C4587CF32760EDD91E7 /* Pods-ProximityTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,6 +680,7 @@
 		};
 		4D45C862271EC3A000D136AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEC35DFCD2B430D4E57BEF9 /* Pods-ProximityTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +703,7 @@
 		};
 		4D45C863271EC3A000D136AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844994FFC12D13DE932F1133 /* Pods-ProximityTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +726,7 @@
 		};
 		4D45C865271EC3A000D136AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C431A5DA9FD19188C9BA1D3 /* Pods-ProximityTest-ProximityTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +747,7 @@
 		};
 		4D45C866271EC3A000D136AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A1283C48F3071BCE0F45A /* Pods-ProximityTest-ProximityTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
