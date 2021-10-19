@@ -7,6 +7,7 @@
 
 import UIKit
 
+//MARK: Air Quality Index Types
 enum AirQualityIndexType {
     case good
     case satisfactory
@@ -17,6 +18,7 @@ enum AirQualityIndexType {
     case outOfRange
 }
 
+//MARK: Air Quality Index Type Classifier
 class AirQualityIndexTypeClassifier {
     static func classifyAirQualityIndex(aqi: Float) -> AirQualityIndexType {
         switch aqi {

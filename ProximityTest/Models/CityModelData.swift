@@ -12,7 +12,7 @@ protocol CityModelData {
     var history: [AirQualityModel] { get set }
 }
 
-class CityDataModelData: CityModelData {
+class CityDetailsModelData: CityModelData {
     var city: String
     var history: [AirQualityModel] = [AirQualityModel]()
 
