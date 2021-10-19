@@ -12,6 +12,9 @@
 		4D2E3793271F0E4B00069CBE /* AirQualityResposne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E3792271F0E4B00069CBE /* AirQualityResposne.swift */; };
 		4D2E3798271F0E7400069CBE /* AirQualityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E3797271F0E7400069CBE /* AirQualityModel.swift */; };
 		4D2E379D271F0EB900069CBE /* CityModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E379C271F0EB900069CBE /* CityModelData.swift */; };
+		4D2E37A2271F101600069CBE /* AirQualityIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E37A1271F101600069CBE /* AirQualityIndexType.swift */; };
+		4D2E37A7271F108100069CBE /* AirQualityIndexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E37A6271F108100069CBE /* AirQualityIndexColor.swift */; };
+		4D2E37AC271F10DA00069CBE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E37AB271F10DA00069CBE /* ColorExtension.swift */; };
 		4D45C838271EC38700D136AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C837271EC38700D136AF /* AppDelegate.swift */; };
 		4D45C83A271EC38700D136AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C839271EC38700D136AF /* SceneDelegate.swift */; };
 		4D45C83C271EC38700D136AF /* AirQualityCityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45C83B271EC38700D136AF /* AirQualityCityListVC.swift */; };
@@ -47,6 +50,9 @@
 		4D2E3792271F0E4B00069CBE /* AirQualityResposne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityResposne.swift; sourceTree = "<group>"; };
 		4D2E3797271F0E7400069CBE /* AirQualityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityModel.swift; sourceTree = "<group>"; };
 		4D2E379C271F0EB900069CBE /* CityModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModelData.swift; sourceTree = "<group>"; };
+		4D2E37A1271F101600069CBE /* AirQualityIndexType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexType.swift; sourceTree = "<group>"; };
+		4D2E37A6271F108100069CBE /* AirQualityIndexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexColor.swift; sourceTree = "<group>"; };
+		4D2E37AB271F10DA00069CBE /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		4D45C834271EC38700D136AF /* ProximityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D45C837271EC38700D136AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D45C839271EC38700D136AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +199,9 @@
 		4D45C86D271EC61C00D136AF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4D2E37A1271F101600069CBE /* AirQualityIndexType.swift */,
+				4D2E37A6271F108100069CBE /* AirQualityIndexColor.swift */,
+				4D2E37AB271F10DA00069CBE /* ColorExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -477,12 +486,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2E3798271F0E7400069CBE /* AirQualityModel.swift in Sources */,
+				4D2E37A7271F108100069CBE /* AirQualityIndexColor.swift in Sources */,
 				4D45C83C271EC38700D136AF /* AirQualityCityListVC.swift in Sources */,
 				4D2E379D271F0EB900069CBE /* CityModelData.swift in Sources */,
+				4D2E37A2271F101600069CBE /* AirQualityIndexType.swift in Sources */,
 				4D2E378E271F0DC800069CBE /* AirQualityCityListCell.swift in Sources */,
 				4D45C838271EC38700D136AF /* AppDelegate.swift in Sources */,
 				4D2E3793271F0E4B00069CBE /* AirQualityResposne.swift in Sources */,
 				4D45C83A271EC38700D136AF /* SceneDelegate.swift in Sources */,
+				4D2E37AC271F10DA00069CBE /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
