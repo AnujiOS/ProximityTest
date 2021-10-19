@@ -29,6 +29,9 @@
 		4DBFD20F271F367E0046CBF3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD20E271F367E0046CBF3 /* DateExtension.swift */; };
 		4DBFD214271F3A170046CBF3 /* AirQualityIndexGraphVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD213271F3A170046CBF3 /* AirQualityIndexGraphVC.swift */; };
 		4DBFD219271F3A7D0046CBF3 /* AirQualityIndexListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD218271F3A7D0046CBF3 /* AirQualityIndexListDetailViewModel.swift */; };
+		4DBFD21E271F42860046CBF3 /* AirQualityIndexListModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD21D271F42860046CBF3 /* AirQualityIndexListModelTest.swift */; };
+		4DBFD223271F42E50046CBF3 /* FakeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD222271F42E50046CBF3 /* FakeDataProvider.swift */; };
+		4DBFD228271F44B10046CBF3 /* AirQualityIndexListDetailModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFD227271F44B10046CBF3 /* AirQualityIndexListDetailModelTest.swift */; };
 		9F24A07BBA955004A6FDF648 /* Pods_ProximityTest_ProximityTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDF21EF5C25CA2C8620947A /* Pods_ProximityTest_ProximityTestUITests.framework */; };
 		A07CA3E61D0A89898B183A24 /* Pods_ProximityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AF1C402316CA92C8EF0643 /* Pods_ProximityTest.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +82,9 @@
 		4DBFD20E271F367E0046CBF3 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		4DBFD213271F3A170046CBF3 /* AirQualityIndexGraphVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexGraphVC.swift; sourceTree = "<group>"; };
 		4DBFD218271F3A7D0046CBF3 /* AirQualityIndexListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexListDetailViewModel.swift; sourceTree = "<group>"; };
+		4DBFD21D271F42860046CBF3 /* AirQualityIndexListModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexListModelTest.swift; sourceTree = "<group>"; };
+		4DBFD222271F42E50046CBF3 /* FakeDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDataProvider.swift; sourceTree = "<group>"; };
+		4DBFD227271F44B10046CBF3 /* AirQualityIndexListDetailModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityIndexListDetailModelTest.swift; sourceTree = "<group>"; };
 		844994FFC12D13DE932F1133 /* Pods-ProximityTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTestTests.release.xcconfig"; path = "Target Support Files/Pods-ProximityTestTests/Pods-ProximityTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		904FD8F57F59E70156990ABD /* Pods_ProximityTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProximityTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C431A5DA9FD19188C9BA1D3 /* Pods-ProximityTest-ProximityTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximityTest-ProximityTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProximityTest-ProximityTestUITests/Pods-ProximityTest-ProximityTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				4D45C84E271EC3A000D136AF /* ProximityTestTests.swift */,
+				4DBFD21D271F42860046CBF3 /* AirQualityIndexListModelTest.swift */,
+				4DBFD227271F44B10046CBF3 /* AirQualityIndexListDetailModelTest.swift */,
+				4DBFD222271F42E50046CBF3 /* FakeDataProvider.swift */,
 				4D45C850271EC3A000D136AF /* Info.plist */,
 			);
 			path = ProximityTestTests;
@@ -526,7 +535,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBFD228271F44B10046CBF3 /* AirQualityIndexListDetailModelTest.swift in Sources */,
+				4DBFD223271F42E50046CBF3 /* FakeDataProvider.swift in Sources */,
 				4D45C84F271EC3A000D136AF /* ProximityTestTests.swift in Sources */,
+				4DBFD21E271F42860046CBF3 /* AirQualityIndexListModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
