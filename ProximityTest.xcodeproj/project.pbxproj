@@ -76,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2E376A271EFF9400069CBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		4D45C82B271EC38700D136AF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,11 @@
 			children = (
 				4D45C837271EC38700D136AF /* AppDelegate.swift */,
 				4D45C839271EC38700D136AF /* SceneDelegate.swift */,
+				4D45C86D271EC61C00D136AF /* Utilities */,
+				4D45C86C271EC60300D136AF /* Models */,
+				4D45C86B271EC5F900D136AF /* Views */,
+				4D45C86A271EC5D300D136AF /* ViewModels */,
+				4D2E376A271EFF9400069CBE /* ViewControllers */,
 				4D45C83B271EC38700D136AF /* ViewController.swift */,
 				4D45C83D271EC38700D136AF /* Main.storyboard */,
 				4D45C840271EC3A000D136AF /* Assets.xcassets */,
@@ -126,6 +138,34 @@
 				4D45C85B271EC3A000D136AF /* Info.plist */,
 			);
 			path = ProximityTestUITests;
+			sourceTree = "<group>";
+		};
+		4D45C86A271EC5D300D136AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D45C86B271EC5F900D136AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D45C86C271EC60300D136AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D45C86D271EC61C00D136AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
