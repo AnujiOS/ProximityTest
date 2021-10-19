@@ -12,6 +12,15 @@ Project for the air quality monitoring using MVVM in Swift for internal purpose.
 #### MVVM
 Used MVVM design pattern.
 
+#### Model 
+- It is used as data source. i.e. AirQualityResposne, CityModelData, AirQualityModel
+#### View
+- It has ability to show list. i.e. AirQualityCityListCell
+#### ViewModel 
+- It has all the logic and a mediator between `View` & `Model`. i.e. AirQualityIndexListViewModel, AirQualityIndexListDetailViewModel
+#### ViewController
+- AirQualityCityListVC, AirQualityIndexGraphVC
+
 #### WebSocket
 - Subscribe to websocket `ws://city-ws.herokuapp.com` to receive Air Quality Indices for the Cities.
 - Pod: `Starscream` => https://github.com/daltoniam/Starscream
@@ -19,13 +28,6 @@ Used MVVM design pattern.
 #### Realtime Graph
 - Show the realtime graph for the City AQI (Air Quality Index) Data.
 - Pod: `Charts` => https://github.com/danielgindi/Charts
-
-
-- Model: is used as data source. i.e. AirQualityResposne, CityModelData, AirQualityModel
-- View: has ability to show list. i.e. AirQualityCityListCell
-- ViewModel: has all the logic and a mediator between `View` & `Model`. i.e. AirQualityIndexListViewModel, AirQualityIndexListDetailViewModel
-- ViewController: AirQualityCityListVC, AirQualityIndexGraphVC
-
 
 #### Unit/UI tests
 - Added Unit and UI Tests using `XCTest`.
